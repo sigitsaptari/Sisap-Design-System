@@ -5,3 +5,4 @@ export * from "./PaymentIcon";
 export * from "./FeaturedIcon";
 export * from "./FileTypeIcon";
 export * from "./Input";
+export * from "./Badge";
