@@ -5,7 +5,7 @@ import type { AvatarSize, AvatarGroupSize, AvatarLabelGroupSize } from "./Avatar
  * Avatar Container CVA definition
  */
 export const avatarVariants = cva(
-  "relative inline-flex items-center justify-center shrink-0 rounded-full select-none overflow-hidden transition-all duration-150 font-semibold bg-neutral-100 border border-neutral-200 text-neutral-600",
+  "relative inline-flex items-center justify-center shrink-0 select-none transition-all duration-150 font-semibold text-neutral-600",
   {
     variants: {
       size: {
@@ -17,7 +17,7 @@ export const avatarVariants = cva(
         "2xl": "w-16 h-16 text-[24px] leading-none",
       },
       border: {
-        true: "ring-2 ring-white shadow-xs",
+        true: "",
         false: "",
       },
     },
@@ -48,7 +48,7 @@ export const avatarGroupVariants = cva("inline-flex items-center isolate", {
  * Status indicator size & position
  */
 export const avatarStatusVariants = cva(
-  "absolute bottom-0 right-0 rounded-full flex items-center justify-center z-10 box-content select-none",
+  "absolute bottom-0 right-0 translate-x-[2px] translate-y-[2px] rounded-full flex items-center justify-center z-10 select-none",
   {
     variants: {
       size: {

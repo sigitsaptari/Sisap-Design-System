@@ -92,7 +92,14 @@ export const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>(
         className={cn(avatarVariants({ size, border }), className)}
         {...props}
       >
-        {renderContent()}
+        <div
+          className={cn(
+            "w-full h-full rounded-full overflow-hidden flex items-center justify-center bg-neutral-100 border border-neutral-200",
+            border && "ring-2 ring-white shadow-xs"
+          )}
+        >
+          {renderContent()}
+        </div>
 
         {resolvedStatus && (
           <AvatarStatus

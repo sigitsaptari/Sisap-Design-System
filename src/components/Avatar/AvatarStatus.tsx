@@ -50,7 +50,7 @@ export const AvatarStatus: React.FC<AvatarStatusProps> = ({
         <span
           className={cn(
             containerClasses,
-            "bg-[#16A34A] border-2 border-white rounded-full shadow-xs"
+            "bg-[#16A34A] ring-[1.5px] ring-white rounded-full shadow-xs"
           )}
           aria-label="Online"
           {...props}
@@ -62,7 +62,7 @@ export const AvatarStatus: React.FC<AvatarStatusProps> = ({
         <span
           className={cn(
             containerClasses,
-            "bg-[#D4D4D4] border-2 border-white rounded-full shadow-xs"
+            "bg-[#D4D4D4] ring-[1.5px] ring-white rounded-full shadow-xs"
           )}
           aria-label="Offline"
           {...props}
@@ -74,7 +74,7 @@ export const AvatarStatus: React.FC<AvatarStatusProps> = ({
         <span
           className={cn(
             containerClasses,
-            "border-2 border-white rounded-full shadow-xs overflow-hidden bg-white"
+            "ring-[1.5px] ring-white rounded-full shadow-xs overflow-hidden bg-white"
           )}
           aria-label="Verified user"
           {...props}
@@ -88,7 +88,7 @@ export const AvatarStatus: React.FC<AvatarStatusProps> = ({
         <span
           className={cn(
             containerClasses,
-            "bg-[#EF4444] border-2 border-white text-white font-bold rounded-full leading-none text-[9px] shadow-xs px-0.5 min-w-[14px]"
+            "bg-[#EF4444] ring-[1.5px] ring-white text-white font-bold rounded-full leading-none text-[9px] shadow-xs px-0.5 min-w-[14px]"
           )}
           aria-label={`Unread count: ${count}`}
           {...props}
@@ -102,7 +102,7 @@ export const AvatarStatus: React.FC<AvatarStatusProps> = ({
         <span
           className={cn(
             containerClasses,
-            "rounded-full border-2 border-white overflow-hidden shadow-xs bg-neutral-100"
+            "rounded-full ring-[1.5px] ring-white overflow-hidden shadow-xs bg-neutral-100"
           )}
           aria-label="Secondary avatar"
           {...props}
