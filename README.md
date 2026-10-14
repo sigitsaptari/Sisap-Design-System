@@ -1,10 +1,10 @@
-# Sisap Design System (SisapDS)
+# Sisap Design System
 
 Enterprise-grade Design System untuk Sisap — dibangun dengan React 19, TypeScript, Tailwind CSS v4, W3C DTCG Tokens, CVA, Radix UI Primitives, dan Storybook.
 
 ---
 
-##  Arsitektur Proyek
+##  Architecture
 
 ```text
 SisapDS/
