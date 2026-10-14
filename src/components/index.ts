@@ -6,3 +6,4 @@ export * from "./FeaturedIcon";
 export * from "./FileTypeIcon";
 export * from "./Input";
 export * from "./Badge";
+export * from "./Avatar";
