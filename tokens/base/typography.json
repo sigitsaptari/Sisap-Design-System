@@ -1,0 +1,138 @@
+{
+  "fontFamily": {
+    "font-family-display": {
+      "$type": "fontFamily",
+      "$value": "Inter"
+    },
+    "font-family-body": {
+      "$type": "fontFamily",
+      "$value": "Inter"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": "Regular"
+    },
+    "regular-italic": {
+      "$type": "fontWeight",
+      "$value": "Regular italic"
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": "Medium"
+    },
+    "medium-italic": {
+      "$type": "fontWeight",
+      "$value": "Medium italic"
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": "Semibold"
+    },
+    "semibold-italic": {
+      "$type": "fontWeight",
+      "$value": "Semibold italic"
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": "Bold"
+    },
+    "bold-italic": {
+      "$type": "fontWeight",
+      "$value": "Bold italic"
+    }
+  },
+  "fontSize": {
+    "text-xs": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "text-sm": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "text-md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "text-lg": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "text-xl": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "display-xs": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "display-sm": {
+      "$type": "dimension",
+      "$value": "30px"
+    },
+    "display-md": {
+      "$type": "dimension",
+      "$value": "36px"
+    },
+    "display-lg": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "display-xl": {
+      "$type": "dimension",
+      "$value": "60px"
+    },
+    "display-2xl": {
+      "$type": "dimension",
+      "$value": "72px"
+    }
+  },
+  "lineHeight": {
+    "text-xs": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "text-sm": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "text-md": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "text-lg": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "text-xl": {
+      "$type": "dimension",
+      "$value": "30px"
+    },
+    "display-xs": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "display-sm": {
+      "$type": "dimension",
+      "$value": "38px"
+    },
+    "display-md": {
+      "$type": "dimension",
+      "$value": "44px"
+    },
+    "display-lg": {
+      "$type": "dimension",
+      "$value": "60px"
+    },
+    "display-xl": {
+      "$type": "dimension",
+      "$value": "72px"
+    },
+    "display-2xl": {
+      "$type": "dimension",
+      "$value": "90px"
+    }
+  }
+}

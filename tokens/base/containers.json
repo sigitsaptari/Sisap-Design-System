@@ -1,0 +1,16 @@
+{
+  "container": {
+    "container-max-width-desktop": {
+      "$type": "dimension",
+      "$value": "1280px"
+    },
+    "container-padding-desktop": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "container-padding-mobile": {
+      "$type": "dimension",
+      "$value": "16px"
+    }
+  }
+}

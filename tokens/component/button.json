@@ -1,0 +1,33 @@
+{
+  "component": {
+    "button": {
+      "primary": {
+        "bg": { "$type": "color", "$value": "{semantic.color.background.bg-brand-solid}" },
+        "bg-hover": { "$type": "color", "$value": "{semantic.color.background.bg-brand-solid_hover}" },
+        "text": { "$type": "color", "$value": "{semantic.color.text.text-white}" }
+      },
+      "secondary": {
+        "bg": { "$type": "color", "$value": "{semantic.color.background.bg-primary}" },
+        "bg-hover": { "$type": "color", "$value": "{semantic.color.background.bg-secondary_hover}" },
+        "border": { "$type": "color", "$value": "{semantic.color.border.border-primary}" },
+        "text": { "$type": "color", "$value": "{semantic.color.text.text-secondary}" }
+      },
+      "outline": {
+        "bg": { "$type": "color", "$value": "transparent" },
+        "border": { "$type": "color", "$value": "{semantic.color.border.border-primary}" },
+        "border-hover": { "$type": "color", "$value": "{semantic.color.border.border-secondary}" },
+        "text": { "$type": "color", "$value": "{semantic.color.text.text-secondary}" }
+      },
+      "ghost": {
+        "bg": { "$type": "color", "$value": "transparent" },
+        "bg-hover": { "$type": "color", "$value": "{semantic.color.background.bg-secondary_hover}" },
+        "text": { "$type": "color", "$value": "{semantic.color.text.text-secondary}" }
+      },
+      "danger": {
+        "bg": { "$type": "color", "$value": "{semantic.color.background.bg-error-solid}" },
+        "bg-hover": { "$type": "color", "$value": "{semantic.color.background.bg-error-solid_hover}" },
+        "text": { "$type": "color", "$value": "{semantic.color.text.text-white}" }
+      }
+    }
+  }
+}

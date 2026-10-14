@@ -1,0 +1,54 @@
+{
+  "name": "@sisapds/react",
+  "version": "0.1.0",
+  "description": "Sisap Design System — React + TypeScript + Tailwind CSS, W3C DTCG tokens",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./icons": {
+      "types": "./src/components/Icon/index.ts",
+      "default": "./src/components/Icon/index.ts"
+    },
+    "./tokens.css": "./tokens/build/tokens.css",
+    "./tailwind-theme.css": "./tokens/build/tailwind-theme.css"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run tokens:build && tsc -p tsconfig.build.json",
+    "storybook": "npm run storybook --workspace @sisapds/storybook",
+    "build-storybook": "npm run build-storybook --workspace @sisapds/storybook"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@untitledui/icons": "^0.0.23",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0 || >=19.0.0",
+    "react-dom": ">=18.0.0 || >=19.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^8.6.19",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "semantic": {
+    "color": {
+      "text": {
+        "text-primary": {
+          "$type": "color",
+          "$value": "#171717",
+          "$alias": "Colors/Neutral/900",
+          "$description": "Colors/Text/text-primary (900)"
+        },
+        "text-tertiary": {
+          "$type": "color",
+          "$value": "#525252",
+          "$alias": "Colors/Neutral/600",
+          "$description": "Colors/Text/text-tertiary (600)"
+        },
+        "text-error-primary": {
+          "$type": "color",
+          "$value": "#DC2626",
+          "$alias": "Colors/Error/600",
+          "$description": "Colors/Text/text-error-primary (600)"
+        },
+        "text-warning-primary": {
+          "$type": "color",
+          "$value": "#CA8A04",
+          "$alias": "Colors/Warning/600",
+          "$description": "Colors/Text/text-warning-primary (600)"
+        },
+        "text-success-primary": {
+          "$type": "color",
+          "$value": "#16A34A",
+          "$alias": "Colors/Success/600",
+          "$description": "Colors/Text/text-success-primary (600)"
+        },
+        "text-white": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$alias": "Colors/Base/white",
+          "$description": "Colors/Text/text-white"
+        },
+        "text-secondary": {
+          "$type": "color",
+          "$value": "#404040",
+          "$alias": "Colors/Neutral/700",
+          "$description": "Colors/Text/text-secondary (700)"
+        },
+        "text-secondary_hover": {
+          "$type": "color",
+          "$value": "#262626",
+          "$alias": "Colors/Neutral/800",
+          "$description": "Colors/Text/text-secondary_hover"
+        },
+        "text-tertiary_hover": {
+          "$type": "color",
+          "$value": "#404040",
+          "$alias": "Colors/Neutral/700",
+          "$description": "Colors/Text/text-tertiary_hover"
+        },
+        "text-brand-secondary": {
+          "$type": "color",
+          "$value": "#6941C6",
+          "$alias": "Colors/Brand/700",
+          "$description": "Colors/Text/text-brand-secondary (700)"
+        },
+        "text-placeholder": {
+          "$type": "color",
+          "$value": "#737373",
+          "$alias": "Colors/Neutral/500",
+          "$description": "Colors/Text/text-placeholder"
+        },
+        "text-brand-tertiary": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Text/text-brand-tertiary (600)"
+        },
+        "text-quaternary": {
+          "$type": "color",
+          "$value": "#737373",
+          "$alias": "Colors/Neutral/500",
+          "$description": "Colors/Text/text-quaternary (500)"
+        },
+        "text-brand-primary": {
+          "$type": "color",
+          "$value": "#42307D",
+          "$alias": "Colors/Brand/900",
+          "$description": "Colors/Text/text-brand-primary (900)"
+        },
+        "text-primary_on-brand": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$alias": "Colors/Base/white",
+          "$description": "Colors/Text/text-primary_on-brand"
+        },
+        "text-secondary_on-brand": {
+          "$type": "color",
+          "$value": "#E9D7FE",
+          "$alias": "Colors/Brand/200",
+          "$description": "Colors/Text/text-secondary_on-brand"
+        },
+        "text-tertiary_on-brand": {
+          "$type": "color",
+          "$value": "#E9D7FE",
+          "$alias": "Colors/Brand/200",
+          "$description": "Colors/Text/text-tertiary_on-brand"
+        },
+        "text-quaternary_on-brand": {
+          "$type": "color",
+          "$value": "#D6BBFB",
+          "$alias": "Colors/Brand/300",
+          "$description": "Colors/Text/text-quaternary_on-brand"
+        },
+        "text-brand-tertiary_alt": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Text/text-brand-tertiary_alt"
+        },
+        "text-error-primary_hover": {
+          "$type": "color",
+          "$value": "#B91C1C",
+          "$alias": "Colors/Error/700",
+          "$description": "Colors/Text/text-error-primary_hover"
+        },
+        "text-brand-secondary_hover": {
+          "$type": "color",
+          "$value": "#53389E",
+          "$alias": "Colors/Brand/800",
+          "$description": "Colors/Text/text-brand-secondary_hover"
+        }
+      },
+      "border": {
+        "border-secondary": {
+          "$type": "color",
+          "$value": "#E5E5E5",
+          "$alias": "Colors/Neutral/200",
+          "$description": "Colors/Border/border-secondary"
+        },
+        "border-error_subtle": {
+          "$type": "color",
+          "$value": "#FCA5A5",
+          "$alias": "Colors/Error/300",
+          "$description": "Colors/Border/border-error_subtle"
+        },
+        "border-primary": {
+          "$type": "color",
+          "$value": "#D4D4D4",
+          "$alias": "Colors/Neutral/300",
+          "$description": "Colors/Border/border-primary"
+        },
+        "border-brand": {
+          "$type": "color",
+          "$value": "#9E77ED",
+          "$alias": "Colors/Brand/500",
+          "$description": "Colors/Border/border-brand"
+        },
+        "border-error": {
+          "$type": "color",
+          "$value": "#EF4444",
+          "$alias": "Colors/Error/500",
+          "$description": "Colors/Border/border-error"
+        },
+        "border-tertiary": {
+          "$type": "color",
+          "$value": "#F5F5F5",
+          "$alias": "Colors/Neutral/100",
+          "$description": "Colors/Border/border-tertiary"
+        },
+        "border-brand_alt": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Border/border-brand_alt"
+        },
+        "border-secondary_alt": {
+          "$type": "color",
+          "$value": "#0000001A",
+          "$description": "Colors/Border/border-secondary_alt"
+        }
+      },
+      "background": {
+        "bg-primary": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$alias": "Colors/Base/white",
+          "$description": "Colors/Background/bg-primary"
+        },
+        "bg-tertiary": {
+          "$type": "color",
+          "$value": "#F5F5F5",
+          "$alias": "Colors/Neutral/100",
+          "$description": "Colors/Background/bg-tertiary"
+        },
+        "bg-brand-primary": {
+          "$type": "color",
+          "$value": "#F9F5FF",
+          "$alias": "Colors/Brand/50",
+          "$description": "Colors/Background/bg-brand-primary"
+        },
+        "bg-error-secondary": {
+          "$type": "color",
+          "$value": "#FEE2E2",
+          "$alias": "Colors/Error/100",
+          "$description": "Colors/Background/bg-error-secondary"
+        },
+        "bg-warning-primary": {
+          "$type": "color",
+          "$value": "#FEFCE8",
+          "$alias": "Colors/Warning/50",
+          "$description": "Colors/Background/bg-warning-primary"
+        },
+        "bg-warning-secondary": {
+          "$type": "color",
+          "$value": "#FEF9C3",
+          "$alias": "Colors/Warning/100",
+          "$description": "Colors/Background/bg-warning-secondary"
+        },
+        "bg-success-primary": {
+          "$type": "color",
+          "$value": "#F0FDF4",
+          "$alias": "Colors/Success/50",
+          "$description": "Colors/Background/bg-success-primary"
+        },
+        "bg-success-secondary": {
+          "$type": "color",
+          "$value": "#DCFCE7",
+          "$alias": "Colors/Success/100",
+          "$description": "Colors/Background/bg-success-secondary"
+        },
+        "bg-brand-solid": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Background/bg-brand-solid"
+        },
+        "bg-secondary-solid": {
+          "$type": "color",
+          "$value": "#525252",
+          "$alias": "Colors/Neutral/600",
+          "$description": "Colors/Background/bg-secondary-solid"
+        },
+        "bg-error-solid": {
+          "$type": "color",
+          "$value": "#DC2626",
+          "$alias": "Colors/Error/600",
+          "$description": "Colors/Background/bg-error-solid"
+        },
+        "bg-warning-solid": {
+          "$type": "color",
+          "$value": "#CA8A04",
+          "$alias": "Colors/Warning/600",
+          "$description": "Colors/Background/bg-warning-solid"
+        },
+        "bg-success-solid": {
+          "$type": "color",
+          "$value": "#16A34A",
+          "$alias": "Colors/Success/600",
+          "$description": "Colors/Background/bg-success-solid"
+        },
+        "bg-secondary_hover": {
+          "$type": "color",
+          "$value": "#F5F5F5",
+          "$alias": "Colors/Neutral/100",
+          "$description": "Colors/Background/bg-secondary_hover"
+        },
+        "bg-primary_hover": {
+          "$type": "color",
+          "$value": "#FAFAFA",
+          "$alias": "Colors/Neutral/50",
+          "$description": "Colors/Background/bg-primary_hover"
+        },
+        "bg-brand-solid_hover": {
+          "$type": "color",
+          "$value": "#6941C6",
+          "$alias": "Colors/Brand/700",
+          "$description": "Colors/Background/bg-brand-solid_hover"
+        },
+        "bg-error-primary": {
+          "$type": "color",
+          "$value": "#FEF2F2",
+          "$alias": "Colors/Error/50",
+          "$description": "Colors/Background/bg-error-primary"
+        },
+        "bg-brand-secondary": {
+          "$type": "color",
+          "$value": "#F4EBFF",
+          "$alias": "Colors/Brand/100",
+          "$description": "Colors/Background/bg-brand-secondary"
+        },
+        "bg-secondary": {
+          "$type": "color",
+          "$value": "#FAFAFA",
+          "$alias": "Colors/Neutral/50",
+          "$description": "Colors/Background/bg-secondary"
+        },
+        "bg-quaternary": {
+          "$type": "color",
+          "$value": "#E5E5E5",
+          "$alias": "Colors/Neutral/200",
+          "$description": "Colors/Background/bg-quaternary"
+        },
+        "bg-primary_alt": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$alias": "Colors/Base/white",
+          "$description": "Colors/Background/bg-primary_alt"
+        },
+        "bg-brand-primary_alt": {
+          "$type": "color",
+          "$value": "#F9F5FF",
+          "$alias": "Colors/Brand/50",
+          "$description": "Colors/Background/bg-brand-primary_alt"
+        },
+        "bg-secondary_alt": {
+          "$type": "color",
+          "$value": "#FAFAFA",
+          "$alias": "Colors/Neutral/50",
+          "$description": "Colors/Background/bg-secondary_alt"
+        },
+        "bg-overlay": {
+          "$type": "color",
+          "$value": "#0A0A0A",
+          "$alias": "Colors/Neutral/950",
+          "$description": "Colors/Background/bg-overlay"
+        },
+        "bg-brand-section": {
+          "$type": "color",
+          "$value": "#53389E",
+          "$alias": "Colors/Brand/800",
+          "$description": "Colors/Background/bg-brand-section"
+        },
+        "bg-brand-section_subtle": {
+          "$type": "color",
+          "$value": "#6941C6",
+          "$alias": "Colors/Brand/700",
+          "$description": "Colors/Background/bg-brand-section_subtle"
+        },
+        "bg-primary-solid": {
+          "$type": "color",
+          "$value": "#0A0A0A",
+          "$alias": "Colors/Neutral/950",
+          "$description": "Colors/Background/bg-primary-solid"
+        },
+        "bg-error-solid_hover": {
+          "$type": "color",
+          "$value": "#B91C1C",
+          "$alias": "Colors/Error/700",
+          "$description": "Colors/Background/bg-error-solid_hover"
+        }
+      },
+      "foreground": {
+        "fg-secondary": {
+          "$type": "color",
+          "$value": "#404040",
+          "$alias": "Colors/Neutral/700",
+          "$description": "Colors/Foreground/fg-secondary (700)"
+        },
+        "fg-warning-primary": {
+          "$type": "color",
+          "$value": "#CA8A04",
+          "$alias": "Colors/Warning/600",
+          "$description": "Colors/Foreground/fg-warning-primary"
+        },
+        "fg-success-primary": {
+          "$type": "color",
+          "$value": "#16A34A",
+          "$alias": "Colors/Success/600",
+          "$description": "Colors/Foreground/fg-success-primary"
+        },
+        "fg-white": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$alias": "Colors/Base/white",
+          "$description": "Colors/Foreground/fg-white"
+        },
+        "fg-success-secondary": {
+          "$type": "color",
+          "$value": "#22C55E",
+          "$alias": "Colors/Success/500",
+          "$description": "Colors/Foreground/fg-success-secondary"
+        },
+        "fg-secondary_hover": {
+          "$type": "color",
+          "$value": "#262626",
+          "$alias": "Colors/Neutral/800",
+          "$description": "Colors/Foreground/fg-secondary_hover"
+        },
+        "fg-primary": {
+          "$type": "color",
+          "$value": "#171717",
+          "$alias": "Colors/Neutral/900",
+          "$description": "Colors/Foreground/fg-primary (900)"
+        },
+        "fg-brand-secondary": {
+          "$type": "color",
+          "$value": "#9E77ED",
+          "$alias": "Colors/Brand/500",
+          "$description": "Colors/Foreground/fg-brand-secondary (500)"
+        },
+        "fg-brand-primary": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Foreground/fg-brand-primary (600)"
+        },
+        "fg-quaternary": {
+          "$type": "color",
+          "$value": "#A3A3A3",
+          "$alias": "Colors/Neutral/400",
+          "$description": "Colors/Foreground/fg-quaternary (400)"
+        },
+        "fg-quaternary_hover": {
+          "$type": "color",
+          "$value": "#737373",
+          "$alias": "Colors/Neutral/500",
+          "$description": "Colors/Foreground/fg-quaternary_hover"
+        },
+        "fg-error-primary": {
+          "$type": "color",
+          "$value": "#DC2626",
+          "$alias": "Colors/Error/600",
+          "$description": "Colors/Foreground/fg-error-primary"
+        },
+        "fg-warning-secondary": {
+          "$type": "color",
+          "$value": "#EAB308",
+          "$alias": "Colors/Warning/500",
+          "$description": "Colors/Foreground/fg-warning-secondary"
+        },
+        "fg-error-secondary": {
+          "$type": "color",
+          "$value": "#EF4444",
+          "$alias": "Colors/Error/500",
+          "$description": "Colors/Foreground/fg-error-secondary"
+        },
+        "fg-tertiary": {
+          "$type": "color",
+          "$value": "#525252",
+          "$alias": "Colors/Neutral/600",
+          "$description": "Colors/Foreground/fg-tertiary (600)"
+        },
+        "fg-tertiary_hover": {
+          "$type": "color",
+          "$value": "#404040",
+          "$alias": "Colors/Neutral/700",
+          "$description": "Colors/Foreground/fg-tertiary_hover"
+        },
+        "fg-brand-primary_alt": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Foreground/fg-brand-primary (600)",
+          "$description": "Colors/Foreground/fg-brand-primary_alt"
+        },
+        "fg-brand-secondary_alt": {
+          "$type": "color",
+          "$value": "#9E77ED",
+          "$alias": "Colors/Foreground/fg-brand-secondary (500)",
+          "$description": "Colors/Foreground/fg-brand-secondary_alt"
+        },
+        "fg-brand-secondary_hover": {
+          "$type": "color",
+          "$value": "#7F56D9",
+          "$alias": "Colors/Brand/600",
+          "$description": "Colors/Foreground/fg-brand-secondary_hover"
+        }
+      },
+      "components": {
+        "tooltips": {
+          "tooltip-supporting-text": {
+            "$type": "color",
+            "$value": "#D4D4D4",
+            "$alias": "Colors/Neutral/300",
+            "$description": "Component colors/Components/Tooltips/tooltip-supporting-text"
+          }
+        },
+        "text editor": {
+          "text-editor-icon-fg": {
+            "$type": "color",
+            "$value": "#A3A3A3",
+            "$alias": "Colors/Neutral/400",
+            "$description": "Component colors/Components/Text editor/text-editor-icon-fg"
+          },
+          "text-editor-icon-fg_active": {
+            "$type": "color",
+            "$value": "#737373",
+            "$alias": "Colors/Neutral/500",
+            "$description": "Component colors/Components/Text editor/text-editor-icon-fg_active"
+          }
+        },
+        "icons": {
+          "featured icons": {
+            "featured-icon-light-fg-brand": {
+              "$type": "color",
+              "$value": "#7F56D9",
+              "$alias": "Colors/Brand/600",
+              "$description": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand"
+            },
+            "featured-icon-light-fg-gray": {
+              "$type": "color",
+              "$value": "#737373",
+              "$alias": "Colors/Neutral/500",
+              "$description": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray"
+            },
+            "featured-icon-light-fg-error": {
+              "$type": "color",
+              "$value": "#DC2626",
+              "$alias": "Colors/Error/600",
+              "$description": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error"
+            },
+            "featured-icon-light-fg-warning": {
+              "$type": "color",
+              "$value": "#CA8A04",
+              "$alias": "Colors/Warning/600",
+              "$description": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning"
+            },
+            "featured-icon-light-fg-success": {
+              "$type": "color",
+              "$value": "#16A34A",
+              "$alias": "Colors/Success/600",
+              "$description": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success"
+            }
+          },
+          "icons": {
+            "icon-fg-brand": {
+              "$type": "color",
+              "$value": "#7F56D9",
+              "$alias": "Colors/Brand/600",
+              "$description": "Component colors/Components/Icons/Icons/icon-fg-brand"
+            },
+            "icon-fg-brand_on-brand": {
+              "$type": "color",
+              "$value": "#E9D7FE",
+              "$alias": "Colors/Brand/200",
+              "$description": "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand"
+            }
+          }
+        },
+        "sliders": {
+          "slider-handle-border": {
+            "$type": "color",
+            "$value": "#7F56D9",
+            "$alias": "Colors/Brand/600",
+            "$description": "Component colors/Components/Sliders/slider-handle-border"
+          },
+          "slider-handle-bg": {
+            "$type": "color",
+            "$value": "#FFFFFF",
+            "$alias": "Colors/Base/white",
+            "$description": "Component colors/Components/Sliders/slider-handle-bg"
+          }
+        },
+        "mockups": {
+          "screen-mockup-border": {
+            "$type": "color",
+            "$value": "#171717",
+            "$alias": "Colors/Neutral/900",
+            "$description": "Component colors/Components/Mockups/screen-mockup-border"
+          }
+        },
+        "footers": {
+          "footer-button-fg": {
+            "$type": "color",
+            "$value": "#E9D7FE",
+            "$alias": "Colors/Brand/200",
+            "$description": "Component colors/Components/Footers/footer-button-fg"
+          },
+          "footer-button-fg_hover": {
+            "$type": "color",
+            "$value": "#FFFFFF",
+            "$alias": "Colors/Base/white",
+            "$description": "Component colors/Components/Footers/footer-button-fg_hover"
+          }
+        },
+        "app store badges": {
+          "app-store-badge-border": {
+            "$type": "color",
+            "$value": "#A6A6A6",
+            "$description": "Component colors/Components/App store badges/app-store-badge-border"
+          }
+        },
+        "avatars": {
+          "avatar-styles-bg-neutral": {
+            "$type": "color",
+            "$value": "#E0E0E0",
+            "$description": "Component colors/Components/Avatars/avatar-styles-bg-neutral"
+          }
+        },
+        "toggles": {
+          "toggle-border": {
+            "$type": "color",
+            "$value": "#D4D4D4",
+            "$alias": "Colors/Neutral/300",
+            "$description": "Component colors/Components/Toggles/toggle-border"
+          },
+          "toggle-slim-border_pressed": {
+            "$type": "color",
+            "$value": "#7F56D9",
+            "$alias": "Colors/Background/bg-brand-solid",
+            "$description": "Component colors/Components/Toggles/toggle-slim-border_pressed"
+          },
+          "toggle-slim-border_pressed-hover": {
+            "$type": "color",
+            "$value": "#6941C6",
+            "$alias": "Colors/Background/bg-brand-solid_hover",
+            "$description": "Component colors/Components/Toggles/toggle-slim-border_pressed-hover"
+          }
+        }
+      },
+      "alpha": {
+        "alpha-white-90": {
+          "$type": "color",
+          "$value": "#FFFFFFE5",
+          "$description": "Component colors/Alpha/alpha-white-90"
+        },
+        "alpha-white-80": {
+          "$type": "color",
+          "$value": "#FFFFFFCC",
+          "$description": "Component colors/Alpha/alpha-white-80"
+        },
+        "alpha-white-70": {
+          "$type": "color",
+          "$value": "#FFFFFFB2",
+          "$description": "Component colors/Alpha/alpha-white-70"
+        },
+        "alpha-white-60": {
+          "$type": "color",
+          "$value": "#FFFFFF99",
+          "$description": "Component colors/Alpha/alpha-white-60"
+        },
+        "alpha-white-50": {
+          "$type": "color",
+          "$value": "#FFFFFF80",
+          "$description": "Component colors/Alpha/alpha-white-50"
+        },
+        "alpha-white-40": {
+          "$type": "color",
+          "$value": "#FFFFFF66",
+          "$description": "Component colors/Alpha/alpha-white-40"
+        },
+        "alpha-white-30": {
+          "$type": "color",
+          "$value": "#FFFFFF4D",
+          "$description": "Component colors/Alpha/alpha-white-30"
+        },
+        "alpha-white-20": {
+          "$type": "color",
+          "$value": "#FFFFFF33",
+          "$description": "Component colors/Alpha/alpha-white-20"
+        },
+        "alpha-white-10": {
+          "$type": "color",
+          "$value": "#FFFFFF1A",
+          "$description": "Component colors/Alpha/alpha-white-10"
+        },
+        "alpha-black-10": {
+          "$type": "color",
+          "$value": "#0000001A",
+          "$description": "Component colors/Alpha/alpha-black-10"
+        },
+        "alpha-black-20": {
+          "$type": "color",
+          "$value": "#00000033",
+          "$description": "Component colors/Alpha/alpha-black-20"
+        },
+        "alpha-black-30": {
+          "$type": "color",
+          "$value": "#0000004D",
+          "$description": "Component colors/Alpha/alpha-black-30"
+        },
+        "alpha-black-40": {
+          "$type": "color",
+          "$value": "#00000066",
+          "$description": "Component colors/Alpha/alpha-black-40"
+        },
+        "alpha-black-50": {
+          "$type": "color",
+          "$value": "#00000080",
+          "$description": "Component colors/Alpha/alpha-black-50"
+        },
+        "alpha-black-60": {
+          "$type": "color",
+          "$value": "#00000099",
+          "$description": "Component colors/Alpha/alpha-black-60"
+        },
+        "alpha-black-70": {
+          "$type": "color",
+          "$value": "#000000B2",
+          "$description": "Component colors/Alpha/alpha-black-70"
+        },
+        "alpha-black-80": {
+          "$type": "color",
+          "$value": "#000000CC",
+          "$description": "Component colors/Alpha/alpha-black-80"
+        },
+        "alpha-black-90": {
+          "$type": "color",
+          "$value": "#000000E5",
+          "$description": "Component colors/Alpha/alpha-black-90"
+        },
+        "alpha-black-100": {
+          "$type": "color",
+          "$value": "#000000",
+          "$description": "Component colors/Alpha/alpha-black-100"
+        },
+        "alpha-white-100": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$description": "Component colors/Alpha/alpha-white-100"
+        }
+      },
+      "effects": {
+        "shadows": {
+          "shadow-xs": {
+            "$type": "color",
+            "$value": "#0000000D",
+            "$description": "Colors/Effects/Shadows/shadow-xs"
+          },
+          "shadow-sm_02": {
+            "$type": "color",
+            "$value": "#0000001A",
+            "$description": "Colors/Effects/Shadows/shadow-sm_02"
+          },
+          "shadow-lg_01": {
+            "$type": "color",
+            "$value": "#00000014",
+            "$description": "Colors/Effects/Shadows/shadow-lg_01"
+          },
+          "shadow-lg_02": {
+            "$type": "color",
+            "$value": "#00000008",
+            "$description": "Colors/Effects/Shadows/shadow-lg_02"
+          },
+          "shadow-sm_01": {
+            "$type": "color",
+            "$value": "#0000001A",
+            "$description": "Colors/Effects/Shadows/shadow-sm_01"
+          },
+          "shadow-3xl_01": {
+            "$type": "color",
+            "$value": "#00000024",
+            "$description": "Colors/Effects/Shadows/shadow-3xl_01"
+          },
+          "shadow-2xl_01": {
+            "$type": "color",
+            "$value": "#0000002E",
+            "$description": "Colors/Effects/Shadows/shadow-2xl_01"
+          },
+          "shadow-md_01": {
+            "$type": "color",
+            "$value": "#0000001A",
+            "$description": "Colors/Effects/Shadows/shadow-md_01"
+          },
+          "shadow-md_02": {
+            "$type": "color",
+            "$value": "#0000000F",
+            "$description": "Colors/Effects/Shadows/shadow-md_02"
+          },
+          "shadow-xl_01": {
+            "$type": "color",
+            "$value": "#00000014",
+            "$description": "Colors/Effects/Shadows/shadow-xl_01"
+          },
+          "shadow-xl_02": {
+            "$type": "color",
+            "$value": "#00000008",
+            "$description": "Colors/Effects/Shadows/shadow-xl_02"
+          },
+          "shadow-skeumorphic-inner": {
+            "$type": "color",
+            "$value": "#0000000D",
+            "$description": "Colors/Effects/Shadows/shadow-skeumorphic-inner"
+          },
+          "shadow-skeumorphic-inner-border": {
+            "$type": "color",
+            "$value": "#0000002E",
+            "$description": "Colors/Effects/Shadows/shadow-skeumorphic-inner-border"
+          },
+          "shadow-lg_03": {
+            "$type": "color",
+            "$value": "#0000000A",
+            "$description": "Colors/Effects/Shadows/shadow-lg_03"
+          },
+          "shadow-xl_03": {
+            "$type": "color",
+            "$value": "#0000000A",
+            "$description": "Colors/Effects/Shadows/shadow-xl_03"
+          },
+          "shadow-2xl_02": {
+            "$type": "color",
+            "$value": "#0000000A",
+            "$description": "Colors/Effects/Shadows/shadow-2xl_02"
+          },
+          "shadow-3xl_02": {
+            "$type": "color",
+            "$value": "#0000000A",
+            "$description": "Colors/Effects/Shadows/shadow-3xl_02"
+          }
+        },
+        "portfolio mockups": {
+          "shadow-main-centre-md": {
+            "$type": "color",
+            "$value": "#0A0A0A24",
+            "$description": "Colors/Effects/Portfolio mockups/shadow-main-centre-md"
+          },
+          "shadow-main-centre-lg": {
+            "$type": "color",
+            "$value": "#0A0A0A2E",
+            "$description": "Colors/Effects/Portfolio mockups/shadow-main-centre-lg"
+          },
+          "shadow-overlay-lg": {
+            "$type": "color",
+            "$value": "#0A0A0A1F",
+            "$description": "Colors/Effects/Portfolio mockups/shadow-overlay-lg"
+          },
+          "shadow-grid-md": {
+            "$type": "color",
+            "$value": "#0A0A0A14",
+            "$description": "Colors/Effects/Portfolio mockups/shadow-grid-md"
+          }
+        },
+        "focus rings": {
+          "focus-ring": {
+            "$type": "color",
+            "$value": "#9E77ED",
+            "$alias": "Colors/Brand/500",
+            "$description": "Colors/Effects/Focus rings/focus-ring"
+          },
+          "focus-ring-error": {
+            "$type": "color",
+            "$value": "#EF4444",
+            "$alias": "Colors/Error/500",
+            "$description": "Colors/Effects/Focus rings/focus-ring-error"
+          }
+        }
+      }
+    }
+  }
+}
