@@ -64,3 +64,4 @@ export interface TextEditorProps {
   /** Content area class name */
   contentClassName?: string;
 }
+

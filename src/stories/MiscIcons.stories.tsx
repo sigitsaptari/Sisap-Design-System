@@ -454,12 +454,15 @@ export const FileTypeIconsShowcase: StoryObj = {
         {/* Code Example */}
         <div className="p-4 rounded-xl border border-neutral-200 bg-white space-y-2">
           <h3 className="text-sm font-semibold text-neutral-900">Cara Penggunaan:</h3>
-          <div className="p-3 bg-neutral-900 text-neutral-100 rounded-lg font-mono text-xs overflow-x-auto">
-            {`import { FileTypeIcon } from "@sisapds/react";
-
-<FileTypeIcon format="pdf" variant="default" size={40} />
-<FileTypeIcon format="png" variant="solid" size={32} />
-<FileTypeIcon format="folder" variant="gray" size={24} />`}
+          <div className="p-3 bg-neutral-900 text-neutral-100 rounded-lg font-mono text-xs overflow-x-auto whitespace-pre">
+            {[
+              '// Import komponen dari paket SisapDS',
+              'import { FileTypeIcon } from "@sisapds/react";',
+              "",
+              '<FileTypeIcon format="pdf" variant="default" size={40} />',
+              '<FileTypeIcon format="png" variant="solid" size={32} />',
+              '<FileTypeIcon format="folder" variant="gray" size={24} />',
+            ].join("\n")}
           </div>
         </div>
       </div>

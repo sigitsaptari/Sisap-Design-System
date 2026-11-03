@@ -24,3 +24,4 @@ export interface ToggleProps
   /** Container class */
   containerClassName?: string;
 }
+
