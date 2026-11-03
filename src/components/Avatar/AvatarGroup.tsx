@@ -78,7 +78,7 @@ export const AvatarGroup = React.forwardRef<HTMLDivElement, AvatarGroupProps>(
             onClick={onAdd}
             aria-label={addAriaLabel}
             className={cn(
-              "inline-flex items-center justify-center rounded-full border border-dashed border-neutral-300 bg-white text-neutral-500 transition-colors duration-150 hover:bg-neutral-50 hover:border-neutral-400 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2",
+              "inline-flex items-center justify-center rounded-full border border-dashed border-neutral-300 bg-white text-neutral-500 transition-colors duration-150 hover:bg-neutral-50 hover:border-neutral-400 hover:text-neutral-700 focus:outline-none",
               buttonClass
             )}
           >

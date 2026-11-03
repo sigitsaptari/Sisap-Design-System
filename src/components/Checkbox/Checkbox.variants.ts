@@ -38,15 +38,10 @@ export const checkboxBoxVariants = cva(
         error:
           "bg-bg-primary border-border-error text-text-white group-hover:border-border-error",
       },
-      focused: {
-        true: "ring-4 ring-color-brand-100 ring-offset-2 ring-offset-bg-primary",
-        false: "",
-      },
     },
     defaultVariants: {
       size: "sm",
       state: "unchecked",
-      focused: false,
     },
   }
 );

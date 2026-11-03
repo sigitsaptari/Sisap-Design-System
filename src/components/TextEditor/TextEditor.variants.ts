@@ -16,11 +16,11 @@ export const textEditorContainerVariants = cva(
 );
 
 export const textEditorBoxVariants = cva(
-  "relative flex flex-col rounded-xl border border-border-primary bg-bg-primary shadow-xs transition-colors duration-150 focus-within:border-border-brand focus-within:ring-4 focus-within:ring-color-brand-100",
+  "relative flex flex-col rounded-xl border border-border-primary bg-bg-primary shadow-xs transition-colors duration-150 focus-within:border-border-brand",
   {
     variants: {
       hasError: {
-        true: "border-border-error focus-within:border-border-error focus-within:ring-color-error-100",
+        true: "border-border-error focus-within:border-border-error",
         false: "",
       },
       disabled: {
@@ -36,7 +36,7 @@ export const textEditorBoxVariants = cva(
 );
 
 export const textEditorButtonVariants = cva(
-  "inline-flex items-center justify-center rounded-xs transition-colors duration-150 select-none cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-brand-100",
+  "inline-flex items-center justify-center rounded-xs transition-colors duration-150 select-none cursor-pointer focus-visible:outline-none",
   {
     variants: {
       size: {

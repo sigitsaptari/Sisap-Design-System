@@ -6,23 +6,23 @@ export const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "bg-[#7F56D9] text-white hover:bg-[#6941C6] active:bg-[#53389E] focus-visible:ring-4 focus-visible:ring-[#9E77ED]/40 focus-visible:ring-offset-2 focus-visible:ring-offset-white shadow-xs",
+          "bg-[#7F56D9] text-white hover:bg-[#6941C6] active:bg-[#53389E] shadow-xs",
         secondary:
-          "bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 focus-visible:ring-4 focus-visible:ring-neutral-200 focus-visible:ring-offset-2 shadow-xs",
+          "bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 shadow-xs",
         tertiary:
-          "bg-transparent text-neutral-600 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 focus-visible:ring-4 focus-visible:ring-neutral-200 shadow-none",
+          "bg-transparent text-neutral-600 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 shadow-none",
         "link-color":
-          "bg-transparent text-[#6941C6] hover:text-[#53389E] p-0 h-auto shadow-none focus-visible:underline focus-visible:ring-0 active:text-[#42307D]",
+          "bg-transparent text-[#6941C6] hover:text-[#53389E] p-0 h-auto shadow-none focus-visible:underline active:text-[#42307D]",
         "link-gray":
-          "bg-transparent text-neutral-600 hover:text-neutral-900 p-0 h-auto shadow-none focus-visible:underline focus-visible:ring-0 active:text-neutral-950",
+          "bg-transparent text-neutral-600 hover:text-neutral-900 p-0 h-auto shadow-none focus-visible:underline active:text-neutral-950",
         "destructive-primary":
-          "bg-[#DC2626] text-white hover:bg-[#B91C1C] active:bg-[#991B1B] focus-visible:ring-4 focus-visible:ring-[#FDA29B]/40 focus-visible:ring-offset-2 shadow-xs",
+          "bg-[#DC2626] text-white hover:bg-[#B91C1C] active:bg-[#991B1B] shadow-xs",
         "destructive-secondary":
-          "bg-white text-[#DC2626] border border-[#FCA5A5] hover:bg-[#FEF2F2] hover:text-[#B91C1C] active:bg-[#FEE2E2] focus-visible:ring-4 focus-visible:ring-[#FECDCA] focus-visible:ring-offset-2 shadow-xs",
+          "bg-white text-[#DC2626] border border-[#FCA5A5] hover:bg-[#FEF2F2] hover:text-[#B91C1C] active:bg-[#FEE2E2] shadow-xs",
         "destructive-tertiary":
-          "bg-transparent text-[#DC2626] hover:bg-[#FEF2F2] hover:text-[#B91C1C] active:bg-[#FEE2E2] focus-visible:ring-4 focus-visible:ring-[#FECDCA] shadow-none",
+          "bg-transparent text-[#DC2626] hover:bg-[#FEF2F2] hover:text-[#B91C1C] active:bg-[#FEE2E2] shadow-none",
         "destructive-link":
-          "bg-transparent text-[#DC2626] hover:text-[#B91C1C] p-0 h-auto shadow-none focus-visible:underline focus-visible:ring-0 active:text-[#991B1B]",
+          "bg-transparent text-[#DC2626] hover:text-[#B91C1C] p-0 h-auto shadow-none focus-visible:underline active:text-[#991B1B]",
       },
       size: {
         xs: "h-8 px-2.5 py-1.5 text-sm leading-sm rounded-md gap-1 [&_svg]:h-4 [&_svg]:w-4",
@@ -64,8 +64,8 @@ export const buttonCloseXVariants = cva(
         lg: "h-11 w-11 p-2 rounded-md [&_svg]:h-6 [&_svg]:w-6",
       },
       darkBg: {
-        false: "text-neutral-500 hover:text-neutral-800 hover:bg-neutral-100 focus-visible:ring-2 focus-visible:ring-neutral-200",
-        true: "text-white/70 hover:text-white hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/30",
+        false: "text-neutral-500 hover:text-neutral-800 hover:bg-neutral-100",
+        true: "text-white/70 hover:text-white hover:bg-white/10",
       },
     },
     defaultVariants: {
@@ -85,9 +85,9 @@ export const buttonUtilityVariants = cva(
       },
       variant: {
         secondary:
-          "bg-white text-neutral-600 border border-neutral-300 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 shadow-xs focus-visible:ring-2 focus-visible:ring-neutral-200",
+          "bg-white text-neutral-600 border border-neutral-300 hover:bg-neutral-50 hover:text-neutral-800 active:bg-neutral-100 shadow-xs",
         tertiary:
-          "bg-transparent text-neutral-500 hover:bg-neutral-100 hover:text-neutral-800 active:bg-neutral-200 shadow-none focus-visible:ring-2 focus-visible:ring-neutral-200",
+          "bg-transparent text-neutral-500 hover:bg-neutral-100 hover:text-neutral-800 active:bg-neutral-200 shadow-none",
       },
     },
     defaultVariants: {

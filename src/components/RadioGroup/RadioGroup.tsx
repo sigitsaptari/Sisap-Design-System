@@ -71,8 +71,6 @@ export const Radio = React.forwardRef<HTMLInputElement, RadioProps>(
       ? (isGroupSelected ?? controlledChecked ?? false)
       : internalChecked;
 
-    const [isFocused, setIsFocused] = React.useState(false);
-
     const handleChange = () => {
       if (disabled) return;
       if (!isControlled) {
@@ -107,8 +105,6 @@ export const Radio = React.forwardRef<HTMLInputElement, RadioProps>(
           disabled={disabled}
           required={required}
           onChange={handleChange}
-          onFocus={() => setIsFocused(true)}
-          onBlur={() => setIsFocused(false)}
           className="sr-only peer"
           aria-checked={isChecked}
           {...props}
@@ -121,7 +117,6 @@ export const Radio = React.forwardRef<HTMLInputElement, RadioProps>(
               radioCircleVariants({
                 size,
                 state: resolvedState,
-                focused: isFocused,
               }),
               className
             )}
@@ -205,8 +200,6 @@ export const RadioGroupItem = React.forwardRef<HTMLDivElement, RadioGroupItemPro
         ? group.value === value
         : false;
 
-    const [isFocused, setIsFocused] = React.useState(false);
-
     const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
       if (disabled) return;
       onClick?.(e);
@@ -230,13 +223,10 @@ export const RadioGroupItem = React.forwardRef<HTMLDivElement, RadioGroupItemPro
         tabIndex={disabled ? -1 : isSelected ? 0 : -1}
         onClick={handleClick}
         onKeyDown={handleKeyDown}
-        onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
         className={cn(
           radioItemCardVariants({
             type,
             selected: isSelected,
-            focused: isFocused,
             disabled,
           }),
           className

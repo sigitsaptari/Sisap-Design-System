@@ -137,8 +137,8 @@ export const VerificationCodeInput = React.forwardRef<
                   "font-semibold text-center rounded-md border bg-white shadow-xs transition-all outline-none",
                   sizeClasses,
                   isError
-                    ? "border-[#FCA5A5] text-neutral-900 focus:border-[#DC2626] focus:ring-4 focus:ring-[#FDA29B]/25"
-                    : "border-neutral-300 text-neutral-900 focus:border-[#9E77ED] focus:ring-4 focus:ring-[#9E77ED]/25",
+                    ? "border-[#FCA5A5] text-neutral-900 focus:border-[#DC2626]"
+                    : "border-neutral-300 text-neutral-900 focus:border-[#9E77ED]",
                   disabled && "bg-neutral-50 border-neutral-200 text-neutral-400 cursor-not-allowed shadow-none"
                 )}
                 aria-label={`Digit ${i + 1} of ${digits}`}

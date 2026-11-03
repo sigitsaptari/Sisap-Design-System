@@ -24,9 +24,9 @@ export const inputBoxVariants = cva(
       },
       state: {
         default:
-          "border-neutral-300 focus-within:border-[#9E77ED] focus-within:ring-4 focus-within:ring-[#9E77ED]/25",
+          "border-neutral-300 focus-within:border-[#9E77ED]",
         error:
-          "border-[#FCA5A5] text-neutral-900 focus-within:border-[#DC2626] focus-within:ring-4 focus-within:ring-[#FDA29B]/25",
+          "border-[#FCA5A5] text-neutral-900 focus-within:border-[#DC2626]",
         disabled:
           "bg-neutral-50 border-neutral-200 text-neutral-400 cursor-not-allowed select-none shadow-none",
       },
@@ -48,9 +48,9 @@ export const textareaBoxVariants = cva(
       },
       state: {
         default:
-          "border-neutral-300 focus:border-[#9E77ED] focus:ring-4 focus:ring-[#9E77ED]/25",
+          "border-neutral-300 focus:border-[#9E77ED]",
         error:
-          "border-[#FCA5A5] text-neutral-900 focus:border-[#DC2626] focus:ring-4 focus:ring-[#FDA29B]/25",
+          "border-[#FCA5A5] text-neutral-900 focus:border-[#DC2626]",
         disabled:
           "bg-neutral-50 border-neutral-200 text-neutral-400 cursor-not-allowed resize-none shadow-none",
       },

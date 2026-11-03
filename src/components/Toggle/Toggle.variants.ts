@@ -16,10 +16,6 @@ export const toggleTrackVariants = cva(
         true: "bg-bg-brand-solid hover:bg-bg-brand-solid_hover",
         false: "bg-bg-tertiary hover:bg-bg-secondary_hover",
       },
-      focused: {
-        true: "ring-4 ring-color-brand-100 ring-offset-2 ring-offset-bg-primary",
-        false: "",
-      },
       disabled: {
         true: "opacity-50 pointer-events-none cursor-not-allowed",
         false: "",
@@ -38,7 +34,6 @@ export const toggleTrackVariants = cva(
       variantType: "default",
       size: "sm",
       pressed: false,
-      focused: false,
       disabled: false,
     },
   }

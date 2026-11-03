@@ -16,15 +16,10 @@ export const radioCircleVariants = cva(
         error:
           "bg-bg-primary border-border-error group-hover:border-border-error",
       },
-      focused: {
-        true: "ring-4 ring-color-brand-100 ring-offset-2 ring-offset-bg-primary",
-        false: "",
-      },
     },
     defaultVariants: {
       size: "sm",
       state: "unchecked",
-      focused: false,
     },
   }
 );
@@ -44,10 +39,6 @@ export const radioItemCardVariants = cva(
         true: "border-border-brand bg-bg-primary",
         false: "border-border-secondary bg-bg-primary hover:bg-bg-secondary hover:border-border-secondary",
       },
-      focused: {
-        true: "ring-4 ring-color-brand-100 ring-offset-2 ring-offset-bg-primary",
-        false: "",
-      },
       disabled: {
         true: "opacity-50 pointer-events-none cursor-not-allowed",
         false: "",
@@ -56,7 +47,6 @@ export const radioItemCardVariants = cva(
     defaultVariants: {
       type: "radio",
       selected: false,
-      focused: false,
       disabled: false,
     },
   }

@@ -167,8 +167,6 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
     const isChecked = currentChecked === true;
     const isIndeterminate = currentChecked === "indeterminate";
 
-    const [isFocused, setIsFocused] = React.useState(false);
-
     const inputRef = React.useRef<HTMLInputElement>(null);
     React.useImperativeHandle(ref, () => inputRef.current!);
 
@@ -218,8 +216,6 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
           disabled={disabled}
           required={required}
           onChange={handleChange}
-          onFocus={() => setIsFocused(true)}
-          onBlur={() => setIsFocused(false)}
           className="sr-only peer"
           aria-checked={isIndeterminate ? "mixed" : isChecked}
           aria-invalid={isError ? "true" : undefined}
@@ -233,7 +229,6 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
               checkboxBoxVariants({
                 size,
                 state: resolvedState,
-                focused: isFocused,
               }),
               className
             )}

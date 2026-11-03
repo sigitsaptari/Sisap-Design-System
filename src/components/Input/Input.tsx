@@ -114,7 +114,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
               type="button"
               onClick={() => setShowPassword((prev) => !prev)}
               aria-label={showPassword ? "Hide password" : "Show password"}
-              className="text-neutral-400 hover:text-neutral-600 transition-colors inline-flex shrink-0 cursor-pointer p-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 rounded"
+              className="text-neutral-400 hover:text-neutral-600 transition-colors inline-flex shrink-0 cursor-pointer p-0.5 focus-visible:outline-none rounded"
             >
               <Icon name={showPassword ? "EyeOff" : "Eye"} size={18} />
             </button>

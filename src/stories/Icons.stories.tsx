@@ -78,7 +78,7 @@ export const IconCatalog: StoryObj = {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Cari icon (contoh: arrow, check, user, search, mail, edit, bell)..."
-              className="w-full px-4 py-2.5 pl-10 text-sm rounded-lg border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#7F56D9] focus:border-transparent bg-white shadow-xs"
+              className="w-full px-4 py-2.5 pl-10 text-sm rounded-lg border border-neutral-300 focus:outline-none focus:border-border-brand bg-white shadow-xs"
             />
             <div className="absolute left-3 top-3 text-neutral-400">
               <svg

@@ -33,8 +33,6 @@ export const Toggle = React.forwardRef<HTMLButtonElement, ToggleProps>(
     const [internalPressed, setInternalPressed] = React.useState(defaultPressed);
     const isPressed = isControlled ? controlledPressed : internalPressed;
 
-    const [isFocused, setIsFocused] = React.useState(false);
-
     const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
       if (disabled) return;
       onClick?.(e);
@@ -54,14 +52,11 @@ export const Toggle = React.forwardRef<HTMLButtonElement, ToggleProps>(
         aria-checked={isPressed}
         disabled={disabled}
         onClick={handleClick}
-        onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
         className={cn(
           toggleTrackVariants({
             variantType,
             size,
             pressed: isPressed,
-            focused: isFocused,
             disabled,
           }),
           className
