@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import typoTokens from "../../../tokens/base/typography.json";
 
 const meta: Meta = {
-  title: "Tokens/06. Typography (32 Variables)",
+  title: "Tokens/06. Typography",
   parameters: {
     layout: "padded",
     docs: {
@@ -27,7 +27,7 @@ export const AllTypography: StoryObj = {
       <div className="space-y-8 font-sans">
         <header className="border-b border-neutral-200 dark:border-neutral-800 pb-4">
           <h1 className="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
-            Typography System (32 Variables)
+            Typography System
           </h1>
           <p className="mt-1 text-sm text-neutral-500">
             Hierarki tipografi lengkap dari Figma: Font Family (Inter), 8 Bobot Huruf, 11 Ukuran Font, dan 11 Line Height.

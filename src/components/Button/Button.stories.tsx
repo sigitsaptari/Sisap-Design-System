@@ -3,7 +3,7 @@ import { Button, ButtonCloseX, ButtonUtility } from "./Button";
 import { Icon } from "../Icon";
 
 const meta: Meta<typeof Button> = {
-  title: "Components/Button (Figma Node 25051:35916)",
+  title: "Components/Button",
   component: Button,
   tags: ["autodocs"],
   parameters: {
@@ -101,7 +101,7 @@ export const Hierarchies: Story = {
 };
 
 export const DestructiveButtons: Story = {
-  name: "2. Button Destructive (Figma 6218:85578)",
+  name: "2. Button Destructive",
   render: () => (
     <div className="space-y-6 font-sans">
       <div>
@@ -237,13 +237,13 @@ export const IconOnlyButtons: Story = {
 };
 
 export const LoadingStates: Story = {
-  name: "5. Loading States (Figma 8993:429278)",
+  name: "5. Loading States",
   render: () => (
     <div className="space-y-6 font-sans">
       <div>
         <h3 className="text-sm font-semibold text-neutral-900 mb-1">Button Loading States</h3>
         <p className="text-xs text-neutral-500 mb-4">
-          Menggunakan dual-arc SVG spinner resmi dari Figma node 8993:429278.
+          Menggunakan dual-arc SVG spinner resmi.
         </p>
       </div>
 
@@ -276,12 +276,12 @@ export const LoadingStates: Story = {
 };
 
 export const CloseXButtonShowcase: Story = {
-  name: "6. Button Close X (Figma 2763:420129)",
+  name: "6. Button Close X",
   render: () => (
     <div className="space-y-6 font-sans">
       <div>
         <h3 className="text-sm font-semibold text-neutral-900 mb-1">
-          Button Close X (Node 2763:420129)
+          Button Close X
         </h3>
         <p className="text-xs text-neutral-500 mb-4">
           Tombol tutup modal, drawer, alert dialog, atau toast dengan dukungan dark background.
@@ -312,12 +312,12 @@ export const CloseXButtonShowcase: Story = {
 };
 
 export const UtilityButtonShowcase: Story = {
-  name: "7. Button Utility (Figma 8003:526508)",
+  name: "7. Button Utility",
   render: () => (
     <div className="space-y-6 font-sans">
       <div>
         <h3 className="text-sm font-semibold text-neutral-900 mb-1">
-          Button Utility (Node 8003:526508)
+          Button Utility
         </h3>
         <p className="text-xs text-neutral-500 mb-4">
           Tombol compact 28px (xs) dan 32px (sm) untuk aksi tabel, copy code, expand collapse, dan filter kecil.

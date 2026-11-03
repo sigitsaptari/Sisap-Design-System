@@ -17,7 +17,7 @@ const SAMPLE_AVATAR_COMPANY =
   "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80";
 
 const meta: Meta<typeof Avatar> = {
-  title: "Components/Avatar (Figma Node 25057:4268)",
+  title: "Components/Avatar",
   component: Avatar,
   tags: ["autodocs"],
   parameters: {
@@ -118,7 +118,7 @@ export const Sizes: Story = {
 };
 
 export const StatusIndicators: Story = {
-  name: "Status Indicators (Node 11008:45024)",
+  name: "Status Indicators",
   render: () => (
     <div className="space-y-6">
       <div>
@@ -185,7 +185,7 @@ export const StatusIndicators: Story = {
 };
 
 export const AvatarGroups: Story = {
-  name: "Avatar Group (Node 1274:812)",
+  name: "Avatar Group",
   render: () => (
     <div className="space-y-6">
       <div>
@@ -237,7 +237,7 @@ export const AvatarGroups: Story = {
 };
 
 export const AvatarLabelGroups: Story = {
-  name: "Avatar Label Group (Node 82:2793)",
+  name: "Avatar Label Group",
   render: () => (
     <div className="space-y-6">
       <div>

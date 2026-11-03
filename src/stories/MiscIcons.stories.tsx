@@ -69,7 +69,7 @@ export const SocialIconsShowcase: StoryObj = {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-                Social Icons (Figma Node 1025:31781)
+                Social Icons
               </h1>
               <p className="mt-1 text-sm text-neutral-500">
                 Icon logo media sosial dan platform resmi dari Figma dengan dukungan mode warna penuh dan grayscale.
@@ -154,7 +154,7 @@ export const PaymentIconsShowcase: StoryObj = {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-                Payment Method Icons (Figma Node 1025:31781)
+                Payment Method Icons
               </h1>
               <p className="mt-1 text-sm text-neutral-500">
                 Kartu dan logo metode pembayaran resmi dari Figma dengan rasio aspect standar checkout.
@@ -228,7 +228,7 @@ export const FeaturedIconsShowcase: StoryObj = {
       <div className="space-y-8 font-sans max-w-5xl mx-auto">
         <header className="border-b border-neutral-200 pb-4">
           <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-            Featured Icon Badges (Figma Node 1025:31781)
+            Featured Icon Badges
           </h1>
           <p className="mt-1 text-sm text-neutral-500">
             Badge ikon fitur (Featured Icons) dari Untitled UI untuk menonjolkan fitur produk, notifikasi, dan item list.
@@ -345,7 +345,7 @@ export const FileTypeIconsShowcase: StoryObj = {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-                File Type Icons (Figma Node 4916:411695)
+                File Type Icons
               </h1>
               <p className="mt-1 text-sm text-neutral-500">
                 Koleksi lengkap 153 varian ikon tipe file (59 ekstensi/format x 3 style: Default, Gray, Solid).

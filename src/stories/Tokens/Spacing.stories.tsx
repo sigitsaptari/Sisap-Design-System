@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import spacingTokens from "../../../tokens/base/spacing.json";
 
 const meta: Meta = {
-  title: "Tokens/04. Spacing (17 Variables)",
+  title: "Tokens/04. Spacing",
   parameters: {
     layout: "padded",
     docs: {
@@ -27,7 +27,7 @@ export const SemanticSpacing: StoryObj = {
       <div className="space-y-6 font-sans">
         <header className="border-b border-neutral-200 dark:border-neutral-800 pb-4">
           <h1 className="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
-            Semantic Spacing (17 Variables)
+            Semantic Spacing
           </h1>
           <p className="mt-1 text-sm text-neutral-500">
             Skala jarak semantik untuk layout, gap, dan padding komponen dari `spacing-none` hingga `spacing-11xl`.

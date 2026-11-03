@@ -204,6 +204,14 @@ for (const key of Object.keys(resolvedLight)) {
   const cleanVar = `--ds-${cleanKey(key)}`;
   if (key.startsWith("color.") || key.startsWith("semantic.color.") || key.startsWith("component.")) {
     twLines.push(`  --color-${kebab(key)}: var(${cleanVar});`);
+    if (key.startsWith("semantic.color.")) {
+      const semName = kebab(key.replace("semantic.color.", ""));
+      twLines.push(`  --color-${semName}: var(${cleanVar});`);
+      const shortName = semName.replace(/^(background|text|border|foreground|components)-/, "");
+      if (shortName !== semName) {
+        twLines.push(`  --color-${shortName}: var(${cleanVar});`);
+      }
+    }
   } else if (key.startsWith("spacing.")) {
     const name = kebab(key.replace("spacing.", ""));
     const clean = name.replace(/^spacing-/, "");

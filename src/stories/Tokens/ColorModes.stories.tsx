@@ -4,7 +4,7 @@ import lightTokens from "../../../tokens/semantic/light.json";
 import darkTokens from "../../../tokens/semantic/dark.json";
 
 const meta: Meta = {
-  title: "Tokens/02. Color Modes (139 Variables)",
+  title: "Tokens/02. Color Modes",
   parameters: {
     layout: "padded",
     docs: {
@@ -172,7 +172,7 @@ function SemanticTable({
 }
 
 export const AllSemanticColors: StoryObj = {
-  name: "All 139 Color Modes (Light & Dark)",
+  name: "All Color Modes",
   render: () => {
     return (
       <div className="space-y-8 font-sans">
@@ -180,14 +180,14 @@ export const AllSemanticColors: StoryObj = {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
-                Semantic Color Modes (139 Variables)
+                Semantic Color Modes
               </h1>
               <p className="mt-1 text-sm text-neutral-500">
                 Pilih tema Light/Dark di toolbar atas untuk melihat preview warna live yang berubah secara otomatis.
               </p>
             </div>
             <div className="rounded-lg bg-violet-50 dark:bg-violet-950/50 border border-violet-200 dark:border-violet-900 p-2.5 text-xs text-violet-700 dark:text-violet-300">
-              💡 139 Semantic tokens dari Figma Sisap DS
+              💡 Semantic tokens dari Figma Sisap DS
             </div>
           </div>
         </header>

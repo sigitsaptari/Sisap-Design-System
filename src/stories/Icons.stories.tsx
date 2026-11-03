@@ -4,7 +4,7 @@ import * as RawIcons from "@untitledui/icons";
 import { Icon } from "../components/Icon";
 
 const meta: Meta = {
-  title: "Components/Icons (1,180+ Figma Icons)",
+  title: "Components/Icons",
   parameters: {
     layout: "padded",
     docs: {

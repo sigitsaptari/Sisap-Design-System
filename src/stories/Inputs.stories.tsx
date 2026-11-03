@@ -5,7 +5,7 @@ import { Button } from "../components/Button";
 import { Icon } from "../components/Icon";
 
 const meta: Meta<typeof Input> = {
-  title: "Components/Inputs (Figma Node 85:1269)",
+  title: "Components/Inputs",
   component: Input,
   tags: ["autodocs"],
   parameters: {
@@ -188,12 +188,12 @@ export const InputStates: StoryObj = {
 };
 
 export const TextareaShowcase: StoryObj = {
-  name: "4. Textarea Input Field (Figma 1238:278)",
+  name: "4. Textarea Input Field",
   render: () => (
     <div className="space-y-6 font-sans max-w-lg">
       <div>
         <h3 className="text-sm font-semibold text-neutral-900 mb-1">
-          Textarea Input Field (Node 1238:278)
+          Textarea Input Field
         </h3>
         <p className="text-xs text-neutral-500 mb-4">
           Field multi-baris dengan ukuran `sm` (104px) dan `md` (128px), dukungan label, required mark, tooltip, dan error state.
@@ -224,7 +224,7 @@ export const TextareaShowcase: StoryObj = {
 };
 
 export const VerificationCodeShowcase: StoryObj = {
-  name: "5. Verification Code / OTP (Figma 1106:66757)",
+  name: "5. Verification Code / OTP",
   render: () => {
     const [code4, setCode4] = useState("");
     const [code6, setCode6] = useState("");

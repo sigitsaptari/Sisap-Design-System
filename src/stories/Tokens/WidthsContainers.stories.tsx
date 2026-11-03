@@ -3,7 +3,7 @@ import widthTokens from "../../../tokens/base/widths.json";
 import containerTokens from "../../../tokens/base/containers.json";
 
 const meta: Meta = {
-  title: "Tokens/05. Widths & Containers (15 Variables)",
+  title: "Tokens/05. Widths & Containers",
   parameters: {
     layout: "padded",
     docs: {

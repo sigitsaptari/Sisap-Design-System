@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import radiusTokens from "../../../tokens/base/border-radius.json";
 
 const meta: Meta = {
-  title: "Tokens/03. Radius (11 Variables)",
+  title: "Tokens/03. Radius",
   parameters: {
     layout: "padded",
     docs: {
@@ -64,7 +64,7 @@ function RadiusCard({ name, value }: { name: string; value: string }) {
 }
 
 export const AllRadius: StoryObj = {
-  name: "Radius Scale (11 Variables)",
+  name: "Radius Scale",
   render: () => {
     const list = Object.entries(radiusTokens.radius);
 
@@ -74,7 +74,7 @@ export const AllRadius: StoryObj = {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-                Border Radius (11 Variables)
+                Border Radius
               </h1>
               <p className="mt-1 text-sm text-neutral-500">
                 Tingkat kelengkungan sudut komponen dari 0px (`radius-none`) hingga 9999px (`radius-full`).

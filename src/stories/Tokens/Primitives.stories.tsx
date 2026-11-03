@@ -4,7 +4,7 @@ import colorTokens from "../../../tokens/base/color.json";
 import spacingTokens from "../../../tokens/base/spacing.json";
 
 const meta: Meta = {
-  title: "Tokens/01. Primitives (112 Variables)",
+  title: "Tokens/01. Primitives",
   parameters: {
     layout: "padded",
     docs: {
@@ -64,7 +64,7 @@ function ColorSwatch({
 }
 
 export const Colors: StoryObj = {
-  name: "Colors (80 Variables)",
+  name: "Colors",
   render: () => {
     const categories = Object.entries(colorTokens.color);
 
@@ -109,7 +109,7 @@ export const Colors: StoryObj = {
 };
 
 export const SpacingPrimitives: StoryObj = {
-  name: "Spacing Primitives (32 Variables)",
+  name: "Spacing Primitives",
   render: () => {
     // Filter primitive spacing (numbered ones)
     const items = Object.entries(spacingTokens.spacing).filter(([k]) =>

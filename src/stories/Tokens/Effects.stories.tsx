@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import effectTokens from "../../../tokens/base/shadow.json";
 
 const meta: Meta = {
-  title: "Tokens/07. Effect Styles (Shadows, Focus & Blurs)",
+  title: "Tokens/07. Effect Styles",
   parameters: {
     layout: "padded",
     docs: {

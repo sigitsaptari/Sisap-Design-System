@@ -27,6 +27,8 @@
   "scripts": {
     "tokens:build": "node scripts/build-tokens.mjs",
     "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "format": "echo 'Formatting skipped'",
     "build": "npm run tokens:build && tsc -p tsconfig.build.json",
     "storybook": "npm run storybook --workspace @sisapds/storybook",
     "build-storybook": "npm run build-storybook --workspace @sisapds/storybook"

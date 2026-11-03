@@ -20,7 +20,7 @@ const ALL_COLORS: BadgeColor[] = [
 ];
 
 const meta: Meta<typeof Badge> = {
-  title: "Components/Badge (Figma Node 12:539)",
+  title: "Components/Badge",
   component: Badge,
   tags: ["autodocs"],
   parameters: {
